@@ -2,41 +2,73 @@ body {
   color:aliceblue;
 text-align: center;
 font-family: 'Righteous', cursive;
-background-image:  url("https://c.tenor.com/yasksYy1XekAAAAC/matrix-code.gif");
+background-image: url("https://c.tenor.com/yasksYy1XekAAAAC/matrix-code.gif");
+margin-top:10px;
+margin-left:25px;
+margin-right:25px;
 }
-
 img {
-  border-color: rgb(71, 5, 80);
+  border-color: rgb(239, 230, 250);
   border-width: 8px;
   border-style: solid;
   border-radius: 10px;
   border-radius: 50%;
+  border-color: rgb(71, 5, 80);
 }
-.column {
+.my-projects {
   color: white;
   width: 30%;
   float: left;
-  margin: 12px;
+  margin: 10px;
   border-color: rgb(71, 5, 80);
-  border-width: 8px;
+  border-width: 10px;
   border-style: solid;
   border-radius: 10px;
-  padding: 4px;
-  box-sizing: boarder-box;
-
-  background-image:  url("https://c.tenor.com/h67fjCMSvGUAAAAC/fire-flames.gif");
-
-  background-attachment: fixed;
+  padding: 5px;
+  box-sizing: border-box;
+  background-image: url("https://i.pinimg.com/originals/60/77/21/6077219e88b648ef92674a154d42ef4a.gif");
+  background-attachment: scroll;
   background-size: cover;
 
 }
-.behind-boxes {
-  background-image:  url("https://c.tenor.com/h67fjCMSvGUAAAAC/fire-flames.gif");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.about-me {
+  color: rgb(239, 230, 250);
+  width: 30%;
+  float:left;
+  margin: 10px;
+  border-color: rgb(71, 5, 80);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-image: url("https://i.pinimg.com/originals/60/77/21/6077219e88b648ef92674a154d42ef4a.gif");
+  background-attachment: scroll;
+  background-size: cover;
+  
+
+}
+.causes {
+  color: rgb(239, 230, 250);
+  width: 30%;
+  float: left;
+  margin: 10px;
+  border-color: rgb(71, 5, 80);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-image: url("https://i.pinimg.com/originals/60/77/21/6077219e88b648ef92674a154d42ef4a.gif");
+ 
+  background-attachment: scroll;
   background-size: cover;
 }
-ul, ol{
+ul{
+  text-align: right;
+  direction: rtl;
+}
+ol{
  text-align: left;  
 }
 a {
