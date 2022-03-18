@@ -10,11 +10,12 @@ body {
 img {
   padding: 10px;
   border-width: 8px;
-  border-style: solid;
+  border-style:ridge;
   border-width: 10px;
   border-radius: 10px;
   border-radius: 50%;
   border-color: rgb(224, 130, 236);
+  box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
 }
 .my-projects {
   color: rgb(239, 230, 250);
@@ -23,13 +24,14 @@ img {
   margin: 10px;
   border-color: rgb(224, 130, 236);
   border-width: 10px;
-  border-style: solid;
+  border-style:ridge;
   border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
   background-image: url("https://c.tenor.com/yasksYy1XekAAAAC/matrix-code.gif");
   background-attachment: scroll;
   background-size: cover;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
 }
 .about-me {
   color: rgb(239, 230, 250);
@@ -38,14 +40,14 @@ img {
   margin: 10px;
   border-color: rgb(224, 130, 236);
   border-width: 10px;
-  border-style: solid;
+  border-style:ridge;
   border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
   background-image: url("https://i.pinimg.com/originals/60/77/21/6077219e88b648ef92674a154d42ef4a.gif");
   background-attachment: scroll;
   background-size: cover;
-
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
 }
 .causes {
   color: rgb(239, 230, 250);
@@ -54,13 +56,14 @@ img {
   margin: 10px;
   border-color: rgb(224, 130, 236);
   border-width: 10px;
-  border-style: solid;
+  border-style:ridge;
   border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
   background-image: url("https://images.wsj.net/im-349526/8SR");
   background-attachment: scroll;
   background-size: cover;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
 }
 ul{
   text-align: right;
@@ -76,7 +79,7 @@ a {
   font-size: 80px;
 }
 #school-link {
-  font-size: larger;
+  font-size: 40px;
 }
 a:hover {
   color: rgb(122, 248, 18);
