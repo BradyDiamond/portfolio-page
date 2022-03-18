@@ -33,3 +33,10 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+ul {
+ text-align: left;  
+}
+a {
+  color:rgb(8, 248, 248);
+}
