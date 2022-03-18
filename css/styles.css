@@ -4,8 +4,8 @@ body {
   font-family: 'Righteous', cursive;
   background-image: url("https://media0.giphy.com/media/d31wrqhUBj34YF8I/giphy.gif?cid=ecf05e4703oqt6qgdie1p8jw6xaqejmfq2dgl6skk1smc3gg&rid=giphy.gif&ct=g");
   margin-top:10px;
-  margin-left:5%;
-  margin-right:5%;
+  margin-left:10%;
+  margin-right:10%;
 }
 img {
   padding: 10px;
@@ -15,6 +15,9 @@ img {
   border-radius: 10px;
   border-radius: 50%;
   border-color: rgb(224, 130, 236);
+}
+#MyName:hover {
+  transform: scale(2.0);
 }
 .my-projects {
   color: rgb(239, 230, 250);
