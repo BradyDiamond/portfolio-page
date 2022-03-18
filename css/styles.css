@@ -45,6 +45,7 @@ img {
   background-image: url("https://i.pinimg.com/originals/60/77/21/6077219e88b648ef92674a154d42ef4a.gif");
   background-attachment: scroll;
   background-size: cover;
+
 }
 .causes {
   color: rgb(239, 230, 250);
@@ -79,15 +80,16 @@ a {
 }
 a:hover {
   color: rgb(122, 248, 18);
+  transform: scale(2.0)
 }
 .my-projects:hover {
-  transform: scale(2.0)
+  transform: scale(1.5)
 }
 .about-me:hover {
   transform: scale(2.0)
 }
 .causes:hover {
-  transform: scale(2.0);
+  transform: scale(1.5);
 }
 .my-face {
   overflow: visible;
@@ -96,13 +98,14 @@ a:hover {
   max-width: 320px;
   width: 100%;
 }
-
 .my-face img {
   transition: all 0.3s;
   box-sizing: border-box;
   max-width: 100%;
 }
-
 .my-face:hover img {
-  transform: scale(1.3) rotate(5deg);
+  transform: scale(2.0) rotate(10deg);
+}
+#school-link:hover {
+  transform: scale(2.0)
 }
