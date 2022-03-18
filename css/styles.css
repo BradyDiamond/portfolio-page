@@ -1,11 +1,13 @@
 body {
-  color:aliceblue;
-text-align: center;
-font-family: 'Righteous', cursive;
-background-image: url("https://c.tenor.com/yasksYy1XekAAAAC/matrix-code.gif");
-margin-top:10px;
-margin-left:25px;
-margin-right:25px;
+  color:rgb(32, 142, 238);
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  background-image: url("https://media0.giphy.com/media/d31wrqhUBj34YF8I/giphy.gif?cid=ecf05e4703oqt6qgdie1p8jw6xaqejmfq2dgl6skk1smc3gg&rid=giphy.gif&ct=g");
+  margin-top:10px;
+  margin-left:25px;
+  margin-right:25px;
+  background-attachment: scroll;
+  background-size:unset
 }
 img {
   border-color: rgb(239, 230, 250);
@@ -26,7 +28,7 @@ img {
   border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
-  background-image: url("https://i.pinimg.com/originals/60/77/21/6077219e88b648ef92674a154d42ef4a.gif");
+  background-image: url("https://c.tenor.com/yasksYy1XekAAAAC/matrix-code.gif");
   background-attachment: scroll;
   background-size: cover;
 
@@ -59,7 +61,7 @@ img {
   border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
-  background-image: url("https://i.pinimg.com/originals/60/77/21/6077219e88b648ef92674a154d42ef4a.gif");
+  background-image: url("https://images.wsj.net/im-349526/8SR");
  
   background-attachment: scroll;
   background-size: cover;
@@ -73,4 +75,7 @@ ol{
 }
 a {
   color:rgb(8, 248, 248);
+}
+.title {
+  font-size: 80px;
 }
