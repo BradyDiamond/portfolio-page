@@ -8,6 +8,7 @@
 
 *  _cssl_
 *  _html_
+
 ## Description
 
 _This webpage consists of sections to describe me, showcase my work and link users to donation pages of some social causes i am passionate about_

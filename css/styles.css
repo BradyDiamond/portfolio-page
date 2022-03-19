@@ -77,6 +77,7 @@ a {
 }
 #MyName {
   font-size: 80px;
+  font-family: 'Bungee Shade', cursive;
 }
 #school-link {
   font-size: 40px;
@@ -86,12 +87,18 @@ a:hover {
   transform: scale(2.0)
 }
 .my-projects:hover {
+  transition: all 0.9s;
   transform: scale(1.5)
 }
+.my-projects a:hover {
+  transform: scale(5.0)
+}
 .about-me:hover {
+  transition: all 0.9s;
   transform: scale(2.0)
 }
 .causes:hover {
+  transition: all 0.9s;
   transform: scale(1.5);
 }
 .my-face {
@@ -102,7 +109,7 @@ a:hover {
   width: 100%;
 }
 .my-face img {
-  transition: all 0.3s;
+  transition: all 0.9s;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -110,5 +117,10 @@ a:hover {
   transform: scale(2.0) rotate(10deg);
 }
 #school-link:hover {
-  transform: scale(2.0)
+  transition: all 2.9s;
+  transform: scale(2.0);
+
+}
+#school-link a:hover{
+font-family: 'Bungee Shade', cursive;
 }
