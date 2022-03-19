@@ -118,9 +118,11 @@ a:hover {
 }
 #school-link:hover {
   transition: all 2.9s;
-  transform: scale(2.0);
-
+  transform: scale(1.5);
 }
 #school-link a:hover{
 font-family: 'Bungee Shade', cursive;
+transition: all 2.9s;
+  transform: scale(4.0);
+
 }
