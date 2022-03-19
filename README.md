@@ -19,7 +19,7 @@ _This webpage consists of sections to describe me, showcase my work and link use
 
 ## Known Bugs
 
-* _currently no known bugs__
+* _currently no known bugs_
 
 ## License
 
